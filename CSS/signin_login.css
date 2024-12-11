@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1 solid black;
+    border-radius: 5px;
+}
+
+.container form label {
+    margin-bottom: 5px;
+    font-size:1.2em;
+}
+
+
+.container form button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container form button:hover {
+    background-color: #0056b3;
+}
+
+.gender input{
+    margin-left: 20px;
+}
+
+.gender{
+    font-size:1.1em;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.backbutton {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    border: none;
+    cursor: pointer;
+}
+
+.backbutton img {
+    width: 50px;
+    height: 50px;
+}
