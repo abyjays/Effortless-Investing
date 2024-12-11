@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+   
+}
+
+nav li{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+#logoimg {
+    width: 50px;   
+    height: 50px; 
+}
+
+#signinbtn{
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#signinbtn:hover{
+    background-color: rgb(224, 215, 215);
+}
+
+#loginbtn{
+    border-radius: 30px;
+    border: 0;
+    width: 75px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#loginbtn:hover{
+    background-color: rgb(58, 55, 55);
+}
+
+#h1title{
+    font-family: Arial, sans-serif;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.mainsec{
+
+    margin-left: 50px;
+
+}
+.mainsec h4{
+    font-size: 20px;
+    margin-top: -40px;
+    color:rgb(105, 104, 104);
+    font-weight: normal;
+}
+
+.mainsec p{
+    margin-top: 40px;
+    color:gray;
+}
+
+.mainimg img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.mainimg{
+    max-width: 40%;
+    margin-right: 30px;
+    float: right;
+}
+
+.mainbutton{
+    margin-top: 50px;
+}
+
+.mainbutton button{
+    font-weight: bold;
+    font-size: 1em;
+    width: 10em;
+    height: 4em;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+}
+
+.mainbutton button:hover{
+    background: #f9c5d1;
+
+}
